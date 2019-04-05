@@ -59,6 +59,7 @@ namespace WebApplication4.Models
         public Boolean Hot1 { get => Hot; set => Hot = value; }
         public string TenDM1 { get => TenDM; set => TenDM = value; }
         public List<TinTuc> tin;
+        //aaaaaaaaaaaaaaaaaaaa
 
         public void getTin()
         {

@@ -17,7 +17,7 @@ namespace WebApplication4.DAL
             SqlCommand cmd = new SqlCommand("Select * from TinTuc", con);
 
 
-
+            //aaaaaaa
             SqlDataReader rd = cmd.ExecuteReader();
 
             while (rd.Read() && rd != null)
