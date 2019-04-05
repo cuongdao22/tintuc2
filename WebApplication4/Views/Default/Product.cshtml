@@ -1,0 +1,42 @@
+﻿
+
+@{
+    ViewBag.Title = "Product";
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width " />
+    <title>News</title>
+</head>
+<body>
+    <h2>abc</h2>
+    <div>
+        
+        <h3>@ViewBag.abc</h3>
+
+
+
+        @foreach (var item in Model.list)
+        {
+            <div>
+                @item.Id        @item.Ten    @item.Img
+
+            </div> <br>
+        }
+
+
+    </div>
+
+
+    <div>
+
+    </div>
+</body>
+</html>
+
+
+
