@@ -6,7 +6,7 @@ using System.Data;
 using System.Data.SqlClient;
 
 namespace WebApplication4.DAL
-{
+{  
     public class DALTinTuc:DBConnect
     {
         public static List<Models.TinTuc> getTin()

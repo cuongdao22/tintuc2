@@ -6,7 +6,7 @@ using System.Web;
 namespace WebApplication4.Models
 {
     public class TinTuc
-    {
+    {    
         private int Id;
         private string TieuDe;
         private string Tag;
